@@ -1,0 +1,23 @@
+.time-button {
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .time-button.selected {
+    background-color: #646cff;
+    color: white;
+    border-color: #535bf2;
+  }
+  
+  .time-button:hover {
+    background-color: #ddd;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.875rem;
+  }

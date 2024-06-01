@@ -1,0 +1,19 @@
+.carouselContainer{
+    padding: 2em 10em 0em;
+}
+
+
+.cardContainer{
+    box-shadow: 0 .125rem .25rem  rgb(175, 175, 175);
+}
+p{
+    font-size: smaller;
+}
+#Book{
+    color: #00B8F5;
+    font-size: medium;
+}
+.logo{
+    width: 50%;
+    height: 50%;
+}

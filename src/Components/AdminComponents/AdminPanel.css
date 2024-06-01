@@ -1,0 +1,152 @@
+/* Common styles for admin panel components */
+.admin-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the components */
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand h1 {
+  margin: 0;
+}
+
+.menu-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.sidebar {
+  background-color: #222;
+  color: #fff;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  transition: all 0.3s ease-in-out;
+  padding-top: 60px;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-item {
+  padding: 10px;
+}
+
+.sidebar-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar-link:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Add Theater Container Styles */
+.add-theater-container{
+  margin-top: 2rem;
+}
+.add-movie-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Add some space between components */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+/* Movie Management Container Styles */
+.movie-management-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Add some space between components */
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+}
+
+.movie-item {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
